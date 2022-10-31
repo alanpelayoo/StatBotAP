@@ -1,0 +1,2 @@
+This is my modularized version of StatBot for Cointegration
+apcodes 24-Oct-2022
