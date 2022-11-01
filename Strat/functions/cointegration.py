@@ -1,22 +1,13 @@
 
-
-import math
-from statsmodels.tsa.stattools import coint
-import statsmodels.api as sm
-import pandas as pd
-import numpy as np 
-
 import sys
-sys.path.append('/Users/alanpelayozepeda/Desktop/apcodes/Python/Finance/StatBotAPcodes/Strat/configuration/')
-from config_bybit import z_score_widow
+sys.path.append('..')
+from configuration.config_bybit import z_score_widow
 
 import math
 from statsmodels.tsa.stattools import coint
 import statsmodels.api as sm
 import pandas as pd
 import numpy as np 
-
-from config_bybit import z_score_widow
 
 #Calculate Z score
 def calculate_zscore(spread):

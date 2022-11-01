@@ -1,6 +1,8 @@
+import json
+
 from .get_kline import get_price_klines
 from .get_tradeble_syms import get_tradeable_symbols
-import json
+
 
 def store_price_history(symbols):
     # Get prices and store in dataframe

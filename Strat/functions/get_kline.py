@@ -1,7 +1,7 @@
 import sys
-sys.path.append('/Users/alanpelayozepeda/Desktop/apcodes/Python/Finance/StatBotAPcodes/Strat/configuration/')
+sys.path.append('..')
 
-from config_bybit import session, timeframe, kline_limit
+from configuration.config_bybit import session, timeframe, kline_limit
 
 import datetime
 import time
